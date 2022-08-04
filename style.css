@@ -9,7 +9,7 @@ nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  
+  opacity: 0.9;
   background: #242526;
 }
 nav .wrapper{
@@ -138,6 +138,7 @@ nav .wrapper{
   .wrapper .btn{
     display: block;
   }
+  
   .wrapper .nav-links{
     position: fixed;
     height: 100vh;
@@ -256,6 +257,7 @@ nav .wrapper{
   img{
     width: 100%;
   }
+  
 }
 nav input{
   display: none;
@@ -280,7 +282,18 @@ nav input{
     background-color: #3A3B3C;
     padding-bottom: 1%;
 }
+#p2{
+  text-align:unset;
+  font-size: large;
+}
 .title{
   text-shadow: 2px 1px 3px #d63306;
   color: rgb(71, 54, 107);
+  padding-top: 1%;
+}
+body{
+  background-color: #b4b7ba6f;
+}
+img{
+  border-radius: 10px;
 }

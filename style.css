@@ -104,13 +104,14 @@ nav .wrapper{
   object-fit: cover;
 }
 .content .row header{
-  color: #f2f2f2;
-  font-size: 20px;
-  font-weight: 500;
+  color: #f0a70b;
+  font-size: 25px;
+  font-weight: 500px;
 }
 .content .row .mega-links{
-  margin-left: 25px;
-  border-left: 1px solid rgba(255,255,255,0.09);
+  margin-left: 1px;
+  border-left: 1px solid rgba(248, 246, 244, 0.495);
+  border-right: 1px solid rgba(247, 245, 243, 0.495);
 }
 .row .mega-links li{
   padding: 0 20px;
@@ -214,7 +215,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3A3B3C;
+    background: #3b3a3a;
   }
   .drop-menu li{
     margin: 0;
@@ -222,6 +223,7 @@ nav .wrapper{
   .drop-menu li a{
     border-radius: 5px;
     font-size: 18px;
+    text-align: center;
   }
   .mega-box{
     position: static;
@@ -249,6 +251,7 @@ nav .wrapper{
   }
   .content .row .mega-links{
     border-left: 0px;
+    border-right: 0px;
     padding-left: 15px;
   }
   .row .mega-links li{
